@@ -12,7 +12,7 @@ public class SuperReduceString {
             }
         }
 
-        if(s.length() == 0){
+        if(builder.length() == 0){
             return "Empty String";
         }else{
             return builder.toString();
