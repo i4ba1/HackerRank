@@ -6,7 +6,6 @@ public class CamelCase {
 
     static int camelCase(String s){
         String[] arr = s.split("[A-Z]");
-
         return arr.length;
     }
 
